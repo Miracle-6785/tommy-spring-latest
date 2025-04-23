@@ -23,7 +23,7 @@ metadata:
     datadoghq.com/site: ""
     
     
-    dependencytrack/project-id: ""
+    dependencytrack/project-id: "9fa286ce-fe80-4136-a227-0e59ae2ffcea"
     
     backstage.io/techdocs-ref: dir:.
 spec:
