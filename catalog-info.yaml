@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tommy-spring-latest"
+  description: "A component that is part of the DevSecOps catalog"
+  annotations:
+    
+    jenkins.io/job-full-name: tommy-spring-latest-org/tommy-spring-latest-job
+    
+
+    
+    sonarqube.org/project-key: default/tommy-spring-latest
+    
+
+    
+    cloud-service/app-info: ""
+    aws.amazon.com/amazon-ecs-service-tags: ""
+    aws.amazon.com/cost-insights-tags: ""
+    
+
+    
+    datadoghq.com/dashboard-url: ""
+    datadoghq.com/site: ""
+    
+    
+    dependencytrack/project-id: ""
+    
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:platform-admin
+  lifecycle: experimental
