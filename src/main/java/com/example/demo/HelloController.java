@@ -15,6 +15,6 @@ public class HelloController {
     @GetMapping()
     @Operation(summary = "Get hello message", description = "Returns a simple hello message")
     public String hello() {
-        return "Hello from Spring Boot!";
+        return "Hello from Spring Boot To Nissan!";
     }
 }
