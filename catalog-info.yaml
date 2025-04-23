@@ -15,7 +15,7 @@ metadata:
     
     cloud-service/app-info: "1/7be6ca00-d2bf-4597-985f-91484c53e0f7"
     aws.amazon.com/amazon-ecs-service-tags: "Application=7be6ca00-d2bf-4597-985f-91484c53e0f7"
-    aws.amazon.com/cost-insights-tags: ""
+    aws.amazon.com/cost-insights-tags: "Application=7be6ca00-d2bf-4597-985f-91484c53e0f7"
     
 
     
